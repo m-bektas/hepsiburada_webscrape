@@ -1,6 +1,6 @@
-# Hepsiburada Webscraper
+# Hepsiburada Web Scraper
 
-Webscraping hepsiburada.com products
+Webs scraping hepsiburada.com products
 
 ### Prerequisites
 
@@ -10,7 +10,7 @@ Webscraping hepsiburada.com products
 
 ### Installing and Initialization
 
-* Copy-paste the links of the products you want to scrape to hbapp/app/links.txt. Seperate them with a comma(,).
+* Copy-paste the links of the products you want to scrape to hbapp/app/links.txt. Separate them with a comma(,).
 
 ### Usage
 
