@@ -1,6 +1,6 @@
 # Hepsiburada Web Scraper
 
-Webs scraping hepsiburada.com products
+Scraping hepsiburada.com products
 
 ### Prerequisites
 
