@@ -12,6 +12,7 @@ From the given links finds the names, images and prices of the products and stor
 linkfile = open("links.txt", "r")
 links = linkfile.read().split(',')
 
+# configuration for database login information
 config = {
     'user': 'root',
     'password': 'root',
@@ -19,6 +20,8 @@ config = {
     'port': '3306',
     'database': 'Products'
 }
+
+# connect to database
 mydb = mysql.connector.connect(**config)
 
 mycursor = mydb.cursor()
@@ -42,6 +45,7 @@ for link in links:
     # get product price
     product_price = soup.find('span', attrs={'class': 'price'})['content']
 
+    # add the info to the table as a new row
     sql = 'INSERT INTO ProductTable (name, image, price) VALUES (%s, %s, %s)'
     val = (product_name, product_image, product_price)
     mycursor.execute(sql, val)
