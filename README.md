@@ -10,8 +10,6 @@ Webscraping hepsiburada.com products
 
 ### Installing and Initialization
 
-* Download the project and put it in a folder called "hbapp"
-
 * Copy-paste the links of the products you want to scrape to hbapp/app/links.txt. Seperate them with a comma(,).
 
 ### Usage
