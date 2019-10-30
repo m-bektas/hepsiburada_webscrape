@@ -3,11 +3,9 @@ import urllib.request
 import mysql.connector
 import time
 
+# wait for 10 seconds so app doesn't start running before the database is set up
 time.sleep(10)
 
-"""
-From the given links finds the names, images and prices of the products and stores them in the ProductTable
-"""
 # get url's from the file
 linkfile = open("links.txt", "r")
 links = linkfile.read().split(',')
