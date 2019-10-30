@@ -1,6 +1,6 @@
 # Hepsiburada Web Scraper
 
-Scraping hepsiburada.com products
+Scraping hepsiburada.com products. This is a small project I did for my job interview. 
 
 ### Prerequisites
 
